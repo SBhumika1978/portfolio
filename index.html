@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="profile-section">
+          <img
+            src="Bhumi Photo.jpg"
+            alt="Profile Photo"
+            class="profile-photo"
+          />
+          <div class="profile-info">
+            <h1>SAVIREDDY BHUMIKA</h1>
+            <p>Java Full stack Web Developer</p>
+          </div>
+        </div>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-bg-video-wrapper">
+          <video
+            class="hero-bg-video"
+            autoplay
+            loop
+            muted
+            playsinline
+            poster="Background image.jpg"
+          >
+            <source
+              src="https://videos.pexels.com/video-files/857195/857195-hd_1920_1080_25fps.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="hero-bg-overlay"></div>
+        </div>
+        <div class="container">
+          <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+              Aspiring Software Developer skilled in Core Java, HTML, CSS, and
+              SQL with hands-on experience in responsive web design and
+              full-stack development. Passionate about learning and contributing
+              to impactful IT solutions using modern tools like GitHub,
+              CursorAI, and ChatGPT.
+            </p>
+            <a
+              href="Bhumika Final Template Resume.pdf"
+              class="cta-button"
+              target="_blank"
+              download=""
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-grid">
+            <!-- Project 1: Job Application Form -->
+            <div class="flip-card" tabindex="0">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #43cea2 0%,
+                      #185a9d 100%
+                    );
+                  "
+                >
+                  <img
+                    src="Job Application form.jpg"
+                    alt="Job application Form"
+                  />
+                  <h3>Course Registration Form</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Course Registration Form</h3>
+                  <p>
+                    "Please fill out the form below to apply for the open
+                    position. We're looking for passionate candidates excited to
+                    join our team and make an impact."
+                  </p>
+                  <a
+                    href="https://project1-seven-phi.vercel.app/"
+                    class="project-link"
+                    >View Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Project 2: FullStack Web Development RoadMap -->
+            <div class="flip-card" tabindex="0">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #f7971e 0%,
+                      #ffd200 100%
+                    );
+                  "
+                >
+                  <img
+                    src="fullsatck web development roadmap.jpg"
+                    alt="Fullstack Web Development Roadmap"
+                  />
+                  <h3>Fullstack Web Development Roadmap</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>List Project</h3>
+                  <p>
+                    Simple list project using HTML(lists), focusing on clean
+                    design and validation.
+                  </p>
+                  <a
+                    href="https://task3-liart-chi.vercel.app/"
+                    class="project-link"
+                    >View Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Project 3: Flip Card  -->
+            <div class="flip-card" tabindex="0">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #ff512f 0%,
+                      #dd2476 100%
+                    );
+                  "
+                >
+                  <img
+                    src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&fit=crop&w=800&q=80"
+                    alt="List Project"
+                  />
+                  <h3>Flip Card Project</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Flip Card Project</h3>
+                  <p>
+                    CSS-only card flipping project with gradient backgrounds and
+                    smooth transitions.
+                  </p>
+                  <a href="https://tapacademy.vercel.app/" class="project-link"
+                    >View Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Project 4: Travel Destination guide -->
+            <div class="flip-card" tabindex="0">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #11998e 0%,
+                      #38ef7d 100%
+                    );
+                  "
+                >
+                  <img
+                    src="travel destination guide.jpg"
+                    alt="Travel Destination Guide"
+                  />
+                  <h3>Travel Destination Guide</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Travel Destination Guide</h3>
+                  <p>
+                    Project demonstrating multimedia integration (iframe,
+                    images) using HTML and CSS.
+                  </p>
+                  <a
+                    href="https://travel-destination-guide-git-b06b49-savireddy-bhumikas-projects.vercel.app/"
+                    class="project-link"
+                    >View Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Project 5: Emotion classification using Deep Learning -->
+            <div class="flip-card" tabindex="0">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #fc5c7d 0%,
+                      #6a82fb 100%
+                    );
+                  "
+                >
+                  <img
+                    src="emotion classification.jpg"
+                    alt="Card Flipping Project"
+                  />
+                  <h3>Emotion classification using Deep Learning</h3>
+                </div>
+                <div class="flip-card-back">
+                  <h3>Emotion classification using Deep Learning</h3>
+                  <p>
+                    Emotion Classiffication using Deep Learning detects the
+                    emotions like Neutral,Anger,Disgust,Fear,Sad,Surprise and
+                    Happy using Deep Learning Techniques
+                  </p>
+                  <a
+                    href="https://emotion-classification.vercel.app/"
+                    class="project-link"
+                    >View Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fab fa-java"></i>
+                  <span>Core Java</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Database</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span>SQL</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Tools</h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-github"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-robot"></i>
+                  <span>CursorAI</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-comments"></i>
+                  <span>ChatGPT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section id="achievements" class="achievements-section">
+        <div class="container">
+          <h2 class="section-title">Achievements</h2>
+          <div class="achievements-grid">
+            <div class="achievement-card">
+              <i class="fas fa-certificate"></i>
+              <h3>Internship</h3>
+              <p>
+                Completed a Python Programming internship at MSR Edusoft Pvt.
+                Ltd. as part of an industry-oriented skills upgradation program.
+                Duration: August 2023 – October 2023 (certified by MSR Edusoft
+                Pvt. Ltd. in collaboration with APSCHE & MSME).
+              </p>
+            </div>
+            <div class="achievement-card">
+              <i class="fas fa-certificate"></i>
+              <h3>Intern at TAP ACADEMY</h3>
+              <p>
+                Mastered Core Java, Advanced Java (JDBC,J2EE, Servelets),
+                spring, Hibernate ,MySQL, and Frontend Development. Gained
+                hands-on expertence in OOP, Collections, Мultithreading,
+                Еxception Handling and Java 8 features (Lambda Expressions,
+                Stream API)Applied skills in multiple projects, including a
+                capstone Online Food Delivery application, showcasing full stack
+                development from database integration to responsive UI design.
+              </p>
+            </div>
+            <div class="achievement-card">
+              <i class="fas fa-certificate"></i>
+              <h3>Hacker Rank</h3>
+              <p>Get Certified in Java(Basic) By Hacker Rank</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <form class="contact-form" action="/api/contact" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Your Phone Number"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Type your message here..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="cta-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>SAVIREDDY BHUMIKA</h3>
+            <p>Java Full stack Web Developer</p>
+          </div>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 7671999171</span>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://github.com/SBhumika1978"
+              class="social-link"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/savireddy-bhumika-466534293/"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; @2025 Savireddy Bhumika All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Only one card flips at a time
+      document.querySelectorAll(".flip-card").forEach((card) => {
+        card.addEventListener("click", function () {
+          document.querySelectorAll(".flip-card").forEach((c) => {
+            if (c !== card) c.classList.remove("flipped");
+          });
+          card.classList.toggle("flipped");
+        });
+        card.addEventListener("keypress", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            card.click();
+          }
+        });
+      });
+      // Close flip on click outside
+      document.addEventListener("click", function (e) {
+        if (!e.target.closest(".flip-card")) {
+          document
+            .querySelectorAll(".flip-card")
+            .forEach((c) => c.classList.remove("flipped"));
+        }
+      });
+    </script>
+  </body>
+</html>
